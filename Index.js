@@ -15,11 +15,11 @@ app.use(cookieParser());
 
 app.use('/api/v1/signup',express.static(path.join(__dirname,'public/Signup.html')));
 app.use('/api/v1/login',express.static(path.join(__dirname,'public/login.html')));
-app.use('/api/v1/AdminHome',express.static(path.join(__dirname,'public/AdminHome.html')));
+// app.use('/api/v1/AdminHome',express.static(path.join(__dirname,'public/AdminHome.html')));
 //app.use('/api/v1/sendotp',express.static(path.join(__dirname,'public/otp.html')));
 app.use('/api/v1/addProfile',express.static(path.join(__dirname,'public/Regis.html')));
-app.use('/api/v1/Stateinfo',express.static(path.join(__dirname,'public/addexper.html')));
-app.use('/api/v1/addCenter',express.static(path.join(__dirname,'public/center.html')));
+// app.use('/api/v1/Stateinfo',express.static(path.join(__dirname,'public/addexper.html')));
+// app.use('/api/v1/addCenter',express.static(path.join(__dirname,'public/center.html')));
 
 
 require("dotenv").config();
